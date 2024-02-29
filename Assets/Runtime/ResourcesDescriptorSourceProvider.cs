@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using com.karabaev.descriptors.abstractions.Source;
+using com.karabaev.descriptors.abstractions.Initialization;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 

@@ -1,5 +1,5 @@
 ﻿using System;
-using com.karabaev.descriptors.abstractions.Source;
+using com.karabaev.descriptors.abstractions.Initialization;
 using Cysharp.Threading.Tasks;
 
 namespace com.karabaev.descriptors.unity

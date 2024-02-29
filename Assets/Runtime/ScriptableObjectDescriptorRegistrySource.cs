@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using com.karabaev.descriptors.abstractions;
-using com.karabaev.descriptors.abstractions.Source;
+using com.karabaev.descriptors.abstractions.Initialization;
 using UnityEngine;
 
 namespace com.karabaev.descriptors.unity
