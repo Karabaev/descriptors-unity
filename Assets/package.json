@@ -1,6 +1,6 @@
 {
   "name": "com.karabaev.descriptors.unity",
-  "displayName": "Descriptors for Unity",
+  "displayName": "com.karabaev.descriptors.unity",
   "version": "0.0.1",
   "unity": "2022.3",
   "author": "Karabaev Maksim"
