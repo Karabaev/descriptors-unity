@@ -7,14 +7,20 @@ using UnityEngine;
 
 namespace com.karabaev.descriptors.unity
 {
-  public abstract class ScriptableObjectDescriptorRegistrySource<TId, TDescriptor> : ScriptableObject, IDescriptorRegistrySource
+  public abstract class ScriptableObjectDescriptorRegistrySource<TId, TDescriptor, TProvider> : ScriptableObject, IDescriptorRegistrySource
     where TId : IEquatable<TId>
     where TDescriptor : IDescriptor
+    where TProvider : IDescriptorSourceProvider
+
   {
     [SerializeField]
     private Item[] _items = Array.Empty<Item>();
 
+    public abstract string Key { get; }
+
     public Type DescriptorType => typeof(TDescriptor);
+
+    public Type ProviderType => typeof(TProvider);
 
     public IReadOnlyDictionary<object, IDescriptor> Descriptors => _items.ToDictionary(i => (object)i.Id, i => (IDescriptor)i.Descriptor);
 

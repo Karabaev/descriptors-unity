@@ -4,7 +4,7 @@ using Cysharp.Threading.Tasks;
 
 namespace com.karabaev.descriptors.unity
 {
-  public static class DescriptorSourceProvider
+  public static class UnityDescriptorSourceProviderExtensions
   {
     public static UniTask<IDescriptorRegistrySource> GetUniAsync(this IDescriptorSourceProvider provider, string key, Type type) => 
       provider.GetAsync(key, type).AsUniTask();
