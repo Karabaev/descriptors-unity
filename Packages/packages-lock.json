@@ -12,7 +12,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "5b2cf0a5be3500d5922468a94e2f81f20744564b"
+      "hash": "67ad8ae80e0541e8d2b3209f9b1d4289c8a478c9"
     },
     "com.karabaev.utilities": {
       "version": "https://git.jetbrains.space/rdds2/gk/com.karabaev.utilities.git?path=Assets",
